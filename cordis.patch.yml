@@ -1,0 +1,5 @@
+# onboarding-pack bundle patch: registers the skill with DSH.
+# Ships SKILL.md only — no host-process code, no browser client.
+- insert:
+    - id: onboarding-pack
+      name: 'onboarding-pack'

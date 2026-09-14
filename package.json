@@ -1,0 +1,15 @@
+{
+  "name": "onboarding-pack",
+  "version": "0.1.0",
+  "description": "Write the document a newcomer actually needs on day one: what this project is, how to run it, where things live, the five unwritten rules, and who to ask — discoverable, current, and readable in ten minutes, maintained as the cost of doing the work.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenneyZhuang/onboarding-pack.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
