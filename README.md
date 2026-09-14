@@ -24,6 +24,13 @@ The pack is updated **when the thing it describes changes** — a new unwritten 
 
 包随其描述的对象变化而更新——工作中发现新的潜规则、文件搬家、负责人变更，更新是变更的一部分，就像测试一样：让包失效却不更新包的变更是不完整的变更。
 
+## Honest limitations / 如实说明局限
+
+- The pack goes stale without the update-as-part-of-change rule; a dated pack older than the last big change should be distrusted.
+- Unwritten rules are discovered by working — the first draft always misses some; the audit loop (newcomer questions → new entries) is how it converges.
+
+不随变更更新就会过期；日期早于最近大变的包应被怀疑。潜规则靠工作中发现——初稿必然有遗漏；"新人提问→补条目"的循环才是收敛机制。
+
 ## Install / 安装
 
 ```bash
