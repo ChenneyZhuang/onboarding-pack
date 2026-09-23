@@ -1,0 +1,23 @@
+{
+  "skill_name": "onboarding-pack",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "新同事下周一入职，给我们的数据分析岗写个上手包",
+      "expected_output": "An onboarding pack with tested run steps, dated access items with owners, named contacts with availability, and a first-week checklist; no step that only works in the author's head.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "check our onboarding doc before the next hire joins",
+      "expected_output": "A fresh-reader test of the pack with untestable/failed steps listed and fixed; access-request items re-dated.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "给我自己的新 agent 会话准备一个项目上手说明",
+      "expected_output": "A pack a fresh agent session can execute: run instructions first, then decisions/gotchas, each entry dated and concrete.",
+      "files": []
+    }
+  ]
+}

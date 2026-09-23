@@ -19,6 +19,10 @@ metadata:
 
 # Onboarding Pack: the month of asking around, prepaid
 
+## When to use
+
+Use when someone (or a new agent session) starts on a project: new hire, new contractor, new contributor, fresh assistant context. Use before taking leave. Not for HR paperwork or company-wide policy docs.
+
 The expensive onboarding time is spent discovering unwritten rules, not
 running install commands. This pack writes those rules down once, where the
 next person will find them.
@@ -65,3 +69,9 @@ A newcomer with zero context can run the project from the pack's commands,
 name the authoritative source for every contested area, list the unwritten
 rules, and find the owners — all within ten minutes of reading, and the
 pack's date proves how current it is.
+
+## Gotchas / 常见坑
+
+- The pack's author knows too much to test it; run it against a fresh reader (human or agent) — untestable steps are where onboarding fails.
+- Access items (repos, dashboards, keys) age fastest: date them and name their owner.
+- 'Ask X if stuck' without X's availability or timezone is a dead end on day one.
